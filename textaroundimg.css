@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #7d2ae7;
+  color: white;
+}
+.wrapper{
+  margin: 100px auto;
+  padding: 25px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+img{
+  max-width: 320px;
+  border: 1px solid white;
+  border-radius: 10px;
+  float: left;
+  margin-right: 25px;
+  background: linear-gradient(rgb(7, 206, 212), rgb(255, 255, 255));}
+  /* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(0, 119, 128);
+    color: white;
+    padding: 0px 0px;
+  }
+}
